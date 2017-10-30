@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgrond"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cek.bpjs.online.MainActivity">
+
+    <GridView
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:numColumns="auto_fit"
+
+        android:layout_marginBottom="50dp"
+        android:horizontalSpacing="@dimen/cardview_compat_inset_shadow"
+        android:verticalSpacing="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        android:layout_alignParentTop="true" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-1142409875326374/9744436049"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cek.bpjs.online">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash screen -->
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/aps" />
+        <activity android:name=".about" />
+        <activity
+            android:name=".daftar"
+            android:label="@string/aps"
+            android:parentActivityName=".daftar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".daftar" />
+        </activity>
+        <activity
+            android:name=".cek"
+            android:label="@string/aps"
+            android:parentActivityName=".cek"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cek" />
+        </activity>
+        <activity
+            android:name=".telp"
+            android:label="@string/aps"
+            android:parentActivityName=".cek"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".telp" />
+        </activity>
+        <activity
+            android:name=".faskes"
+            android:label="@string/aps"
+            android:parentActivityName=".cek"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".faskes" />
+        </activity>
+        <activity
+            android:name=".alamat"
+            android:label="@string/aps"
+            android:parentActivityName=".cek"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alamat" />
+        </activity>
+        <activity
+            android:name=".daftar_usaha"
+            android:label="@string/aps"
+            android:parentActivityName=".cek"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".daftar_usaha" />
+        </activity>
+        <activity
+            android:name=".monitoring"
+            android:label="@string/aps"
+            android:parentActivityName=".cek"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".monitoring" />
+        </activity>
+        <activity
+            android:name=".native_main_recycle"
+            android:label="@string/app_bpjs" />
+        <activity android:name=".regbpjs" />
+        <activity android:name=".loginbpjs" />
+        <activity android:name=".reg_eps" />
+        <activity android:name=".log_eps" />
+        <activity android:name=".reg_sip" />
+        <activity android:name=".log_sip" />
+        <activity android:name=".log_mitra" />
+        <activity android:name=".reg_mitra" />
+        <activity android:name=".log_bpjstk" />
+        <activity android:name=".simulasi_jht" />
+        <activity android:name=".simulasi_iuran" />
+        <activity android:name=".lupa_pin"></activity>
+    </application>
+
+</manifest>

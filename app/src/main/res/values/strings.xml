@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">INFO ALL BPJS</string>
+    <string name="aps">BPJS Kesehatan</string>
+    <string name="app_bpjs">BPJS Ketenagakerjaan</string>
+    <string name="action_settings">about me</string>
+    <string name="share">share aps</string>
+    <string name="native_ad_unit_id">ca-app-pub-3940256099942544/1072772517</string>
+    <string name="about">"Thank's To:\n" \n" " Allah S.W.T \n" "My   Family\n" "Google.inc\n" "And\n" "all you have been using my application\n"
+    \n" "Copyright@2017\n"</string>
+    <string name="more">more aps</string>
+</resources>

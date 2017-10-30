@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0adeed</color>
+    <color name="colorPrimaryDark">#0adeed</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ireng">#09bfcc</color>
+    <color name="irengs">#9f18afb7</color>
+    <color name="tulisan">#9f050505</color>
+</resources>
